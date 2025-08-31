@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url('1.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    /* margin-bottom: 10%; */
+}
+.navbar{
+    width: 95%;
+    height: auto;
+    margin-left: 30px;
+}
+.logo{
+    color: orange;
+    font-size: 40px;
+    font-family: cursive;
+    float: left;
+    padding: 1%;
+    cursor: pointer;
+}
+.menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 14%;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    font-size: 18px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+ul li a:hover{
+    color: orange;
+}
+.search-box{
+    float: right;
+    width: 240px;
+    background: white;
+    height: 30px;
+    padding: 8px;
+    border-radius: 15px;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+.search-box .search-txt{
+    width: 190px;
+    padding: 0 6px;
+}
+.search-btn{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    float: right;
+    display: flex;
+    color: black;
+    background: white;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: black;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    cursor: pointer;
+    font-family: cursive;
+    color:white;
+    font-size: 85px;
+}
+.button{
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    color: white;
+    padding: 5px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid white;
+    transition: 0.4s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
