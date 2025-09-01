@@ -101,7 +101,7 @@ ul li a:hover{
 }
 .button{
     position: absolute;
-    top: 51%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
